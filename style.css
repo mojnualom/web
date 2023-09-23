@@ -7,6 +7,7 @@
     display: flex; 
     justify-content: space-between;
     align-items: center;
+    background-image: linear-gradient(dodgerblue, black);
 }
 
 .logo {
@@ -43,8 +44,11 @@
     margin-top: 10px;
     width: 150px;
     position: absolute;
-    display: none;
+    opacity: 0;
     margin-left: -10px;
+    transition: 0.5s;
+    transform: scaleY(0);
+    transform-origin: top;
     
 }
 .dropbtn li a{
@@ -52,5 +56,155 @@
     color:white;
 }
 .header ul li:hover ul{
-    display: block;
+    
+    transform: scaleY(1);
+    opacity: 1;
+}
+.logoname{
+    color: yellowgreen;
+}
+.name{
+    color: yellow;
+}
+
+/* <!-- hero are start --> */
+.main-header{
+    text-align: center;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.158),rgba(0, 0, 0, 0.411)), url(image/web\ header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-container{
+    padding-top: 100px;
+}
+
+h1{
+    width: 500px;
+    background-color: #024486ab;
+    padding: 15px 25px;
+    color: white;
+    margin: auto;
+    font-size: 50px;
+    border-radius: 10px 15px;
+    
+}
+.header-container > button{
+    font-size: 22px;
+    padding: 15px 25px;
+    margin-top: 20px;
+    background-color: #024486ab;
+    color: white;
+    border-radius: 10px;
+    border: 4px green solid;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.header-container button:hover{
+    background-color: rgba(0, 255, 255, 0);
+}
+.header-container h4{
+    font-size: 25px;
+    color: rgb(59, 55, 55);
+    margin-bottom: 5px;
+}
+.header-container h5{
+    font-size: 25px;
+    color: rgb(59, 55, 55);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.social a{
+   
+
+}
+
+.social a i{
+    font-size: 20px;
+    background-color: #024486ab;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+
+}
+.social a i:hover{
+
+background-color: rgba(0, 0, 0, 0);
+border: 2px solid green;
+
+}
+.services{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    
+}
+.first{
+    
+    margin-right: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 300px;
+    
+}
+.second{
+    
+    margin-right: 5px;
+    padding: 20px 20px 20px;
+    text-align: center;
+    
+    width: 300px;
+    
+}
+.third{
+    
+    padding: 10px 10px;
+    text-align: center;
+    width: 300px;
+    
+    
+    
+}
+.first h2{
+    
+    margin-bottom: 10px;
+}
+.second h2{
+    
+    margin-bottom: 10px;
+    
+}
+.third h2{
+    margin-bottom: 10px;
+    
+}
+.first i{
+    
+   font-size: 50px;
+   padding: 20px;
+}
+.second i{
+    
+    font-size: 50px;
+    padding: 20px; 
+}
+.third i{
+    font-size: 50px;
+    padding: 20px;
+    
+    
+}
+.first:hover{
+    
+    box-shadow: 3px 3px 10px gray;
+}
+.second:hover{
+    box-shadow: 3px 3px 10px gray;
+}
+.third:hover{
+    box-shadow: 3px 3px 10px gray;
 }
