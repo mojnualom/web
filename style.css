@@ -208,3 +208,47 @@ border: 2px solid green;
 .third:hover{
     box-shadow: 3px 3px 10px gray;
 }
+.smart{
+    text-align: center;
+    position: relative;
+    
+}
+.smart h2::after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 642px;
+}
+.smart-area{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.allpara{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.allpara h4{
+    color: red;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.allpara h2{
+    padding-bottom: 20px;
+}
+.allpara a{
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border: 1px solid yellow;
+    border-radius: 50px;
+}
+.allpara p{
+    padding-bottom: 20px;
+}
