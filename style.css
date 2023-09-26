@@ -27,26 +27,25 @@
     transition: 2s;
     
 }
-
 .navbar li a{
     text-decoration: none;
     font-size: 20px;
     color: white;
 }
 .navbar li:hover{
-    background-color: aqua;
+    background-color: rgb(41, 119, 196);
     border-radius:10px;
 }
 .dropbtn{
     
     list-style: none;
-    background-color: dodgerblue;
+    background-image: linear-gradient(rgb(112, 127, 141), black);
     margin-top: 10px;
     width: 150px;
     position: absolute;
     opacity: 0;
     margin-left: -10px;
-    transition: 0.5s;
+    transition: 0.2s;
     transform: scaleY(0);
     transform-origin: top;
     
@@ -292,4 +291,79 @@ border: 2px solid green;
 .box{
     width: 300px;
     box-shadow: 1px 1px 10px black;
+}
+.box a{
+    color: white;
+}
+.list-parent button:hover{
+    background-color:rgb(185, 33, 33);
+}
+.testomonial-title{
+    text-align: center;
+   padding: 50px 0px;
+}
+.testomonial-title > h2{
+    font-size: 35px;
+
+}
+.testomonial-title > h4 {
+    color: gray;
+    letter-spacing: 5px;
+}
+.card-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px ;
+}
+.card-img{
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.card-img> img{
+    max-width: 100%;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.testo-container{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 50px;
+    
+}
+#testo-main{
+    background-color: bisque;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.name-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#parralax-parent{
+    background-image: url("/image/parallax.jpg");
+    margin-bottom: 200px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.paralax-body{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+}
+.paralax-body >div > i{
+    font-size: 30px;
+    padding: 10px 0px;
 }
